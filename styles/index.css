@@ -1,3 +1,4 @@
+
 .menuPc{
     display: flex;
 }
@@ -18,3 +19,108 @@
         color: red;
     }
 }*/
+main{
+    display: flex;
+    flex-direction:column ;
+
+}
+.BannersPrincipais{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 650px;
+    background-color: aqua;
+    background-image:url(/images/posters/Narcos.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#banner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top:8%;
+    width: 30%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%);
+}
+#narcosTitle{
+    display: flex;
+
+    font-size: 75px;
+}
+#narcosTitle{
+    padding-left: 20px;
+}
+#netflixTitle{
+    padding-left:35px;
+}
+#temporadatitle{
+    padding-left:35px;
+}
+#paragraphtitle{
+    padding-left: 8px;
+}
+.buttons{
+    margin-left:20px;
+    display: flex;
+    height: 30px;
+    gap: 30px;
+    color: white;
+}
+.buttons button{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20;
+    border: none;
+    border-radius:2px ;
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+button:hover{
+    background-color: rgba(27, 27, 27, 0.404);;
+}
+.box-series{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:30px;
+    width: 600px;
+    height: 250px;
+    background-color: aliceblue;
+}
+#Series-tv{
+    margin-left: 30px;
+}
+#sessão-de-filmes{
+    display: flex;
+    
+}
+#box1{
+    background-image: url(/images/posters/american-ultra-7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#box2{
+    background-image: url(/images/posters/american-ultra-7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#box3{
+    background-image: url(/images/posters/american-ultra-7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#box4{
+    background-image: url(/images/posters/american-ultra-7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
